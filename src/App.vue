@@ -38,7 +38,7 @@ export default {
 }
 .sub-chao {
   width: 47%;
-  float: right;
+  float: left;
   border: 1px solid #ccc;
   margin: 20px 1%;
   padding: 20px 0;
@@ -46,7 +46,7 @@ export default {
 
 .painel-titulo-chao {
   width: 47%;
-  float: right;
+  float: left;
   border: 1px solid #ccc;
   margin: 20px 1%;
   padding: 20px 0;
