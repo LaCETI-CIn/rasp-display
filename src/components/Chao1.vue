@@ -11,8 +11,7 @@ export default {
     }
   },
   mqtt: {
-    /** 'VueMqtt/publish2' or '+/publish2' */
-    'L7test/#' (data) {
+    'bess/#' (data) {
       this.buff = this.buff + data + '<br>'
     }
   }
