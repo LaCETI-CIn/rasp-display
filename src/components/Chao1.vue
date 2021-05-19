@@ -1,13 +1,19 @@
 <template>
-  <div class="sub" v-html="buff">
-  </div>
+<div class="painel">
+  <h2 h2 class="painel-titulo-chao" @click="visivel = !visivel"> Chão 1 </h2>
+    <div class="sub-chao" v-html="buff" v-show="visivel">
+    </div>
+</div>
 </template>
+
+
 
 <script>
 export default {
   data () {
     return {
-      buff: 'Chão 1: <br>'
+      buff: '<br>',
+      visivel: false
     }
   },
   mqtt: {

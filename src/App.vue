@@ -36,11 +36,35 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-.sub {
-  width: 31%;
+.sub-chao {
+  width: 47%;
   float: right;
   border: 1px solid #ccc;
   margin: 20px 1%;
   padding: 20px 0;
 }
+
+.painel-titulo-chao {
+  width: 47%;
+  float: right;
+  border: 1px solid #ccc;
+  margin: 20px 1%;
+  padding: 20px 0;
+  }
+
+.sub-teto {
+  width: 47%;
+  float: left;
+  border: 1px solid #ccc;
+  margin: 20px 1%;
+  padding: 20px 0;
+}
+
+.painel-titulo-teto {
+  width: 47%;
+  float: left;
+  border: 1px solid #ccc;
+  margin: 20px 1%;
+  padding: 20px 0;
+  }
 </style>
