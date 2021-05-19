@@ -40,4 +40,6 @@ export default {
   margin: 20px 1%;
   padding: 20px 0;
 }
+
+
 </style>
