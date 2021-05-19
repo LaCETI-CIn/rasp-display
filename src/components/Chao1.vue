@@ -11,8 +11,8 @@ export default {
     }
   },
   mqtt: {
-    'bess/#' (data) {
-      this.buff = this.buff + data + '<br>'
+    'iot-bess/sensors' (data) {
+      this.buff = data + '<br>'
     }
   }
 }

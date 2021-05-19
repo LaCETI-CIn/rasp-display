@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/laceti.jpg">
+    <img src="./assets/laceti.jpg" />
     <teto1></teto1>
     <teto2></teto2>
     <chao1></chao1>
@@ -9,24 +9,27 @@
 </template>
 
 <script>
-import Teto1 from './components/Teto1'
-import Teto2 from './components/Teto2'
-import Chao1 from './components/Chao1'
-import Chao2 from './components/Chao2'
+import Teto1 from "./components/Teto1";
+import Teto2 from "./components/Teto2";
+import Chao1 from "./components/Chao1";
+import Chao2 from "./components/Chao2";
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    Teto1, Teto2, Chao1, Chao2
+    Teto1,
+    Teto2,
+    Chao1,
+    Chao2,
   },
-  mounted () {
-    this.$mqtt.subscribe('L7test/#')
-  }
-}
+  mounted() {
+    this.$mqtt.subscribe("iot-bess/sensors");
+  },
+};
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -40,6 +43,4 @@ export default {
   margin: 20px 1%;
   padding: 20px 0;
 }
-
-
 </style>
